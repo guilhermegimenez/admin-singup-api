@@ -1,0 +1,13 @@
+http://127.0.0.0:3000/
+
+
+####
+
+POST http://127.0.0.0:3000/admin
+content-type: application/json
+
+{
+    "name": "Testando",
+    "email": "testando@gmail.com",
+    "password": "test_md5"
+}
